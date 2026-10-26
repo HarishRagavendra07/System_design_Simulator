@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SysSim · System Design Simulator</title>
+  <meta name="description" content="Learn system design by building architectures and simulating traffic, spikes and failures.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%235b7cfa'/><path d='M8 22l6-6 4 4 6-8' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topnav">
+    <a class="brand" href="#/">
+      <svg width="26" height="26" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M8 22l6-6 4 4 6-8" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      SysSim
+    </a>
+    <nav>
+      <a href="#/" data-nav="home">Home</a>
+      <a href="#/problems" data-nav="problems">Practice</a>
+      <a href="#/learn" data-nav="learn">Learn</a>
+      <a href="#/sandbox" data-nav="sandbox">Sandbox</a>
+    </nav>
+    <span class="progress-pill" id="progressPill"></span>
+  </header>
+  <main id="app"></main>
+  <script src="js/data.js"></script>
+  <script src="js/sim.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
